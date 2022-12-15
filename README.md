@@ -24,7 +24,7 @@ Construct a recommendation algorithm capable of accurately predicting how a user
 * Preparing data for better visualization
 
 * EDA
-* Explore the datasets using visual representations (graphs or tables), also include your comments on the following:
+* Explore the datasets using visualization tools (graphs or tables)
   1. User Age Distribution
   2. User rating of the movie “Toy Story”
   3. Top 25 movies by viewership rating

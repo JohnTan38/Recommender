@@ -46,5 +46,9 @@ Construct a recommendation algorithm capable of accurately predicting how a user
   - Content based 
   - Collaborative based 
   - Collaborative Filtering
+  
+
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Recommender_systems.PNG)
+
 * Conclusion 
 * References 

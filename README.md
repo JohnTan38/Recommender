@@ -40,15 +40,24 @@ Construct a recommendation algorithm capable of accurately predicting how a user
   4. Find the ratings for all the movies reviewed by for a particular user of user id = 2696
 
 
-
+## Users' Age Distribution
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/UserAge_dist.PNG)
 
 ## Rating Distribution of Toy Story
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/ToyStory_dist.PNG)
+
+## Top 25 Movies
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Top25.PNG)
+
+## Ratings of movies reviewed by user 2696
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Top20_2696.PNG)
 
 ## Dramas and Comedies are Popular genres
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Genre_freq.PNG)
 
 
+## Movies Recommended to user 2696 
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Top20_predict.PNG)
 
 
 

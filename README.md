@@ -141,5 +141,29 @@ Formally, **SVD is decomposition of a matrix R which is the utility matrix with 
 
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/SVD.PNG)
 
-* Conclusion 
-* References 
+ 
+# Conclusion
+
+The 1M movieLens dataset was used to build our recommender system. This dataset contains movie ratings and movie specific data dating back 50 years. We performed exploratory data analysis to look at users' age distribution, popular movie genres and top movies rated by users. There are 19 unique movie genres in the dataset with Drama, comedy and thriller being the 3 most popular genres.
+
+We explored 3 different methods for building our recommender system. The content based method proved to be too memory intensive and was dismissed as a possible solution.
+
+Collaborative based methods were investigated next since they are based solely on the past interactions recorded between users and items in order to produce new recommendations. These methods do not require item meta-data like their content-based counterparts.
+
+The memory based methods explored were user based and item based. Both these methods performed adequately but have issues with sparsity and scalability.
+
+The final method was singular value decomposition (SVD), a model based collaborative filtering method which addresses the sparsity issue we had with the user-user and item-item based methods as well as having the added benefit of being less memory intensive compared to content based filtering methods.
+
+The SVD model was able to predict new ratings with a RMSE of 0.8
+
+## References 
+
+Keller, J. (2019). Item-Item Recommendation with Surprise. [online] Medium. Available at: https://medium.com/@jmcneilkeller/item-item-recommendation-with-surprise-4bf365355d96.
+
+ai-pool.com. (n.d.). Recommendation Systems by Matrix Factorization and Collaborative Filtering. [online] Available at: https://ai-pool.com/a/s/recommendation-systems-by-matrix-factorization-and-collaborative-filtering.
+
+Kumar, D.V. (2020). Singular Value Decomposition (SVD) In Recommender System. [online] Analytics India Magazine. Available at: https://analyticsindiamag.com/singular-value-decomposition-svd-application-recommender-system/.
+
+Maher Malaeb (2016). Singular Value decomposition (SVD) in recommender systems for Non-math-statistics-programming…. [online] Medium. Available at: https://medium.com/@m_n_malaeb/singular-value-decomposition-svd-in-recommender-systems-for-non-math-statistics-programming-4a622de653e9.
+
+Bhattacharyya, M. (2020). Beginner’s Guide to Creating an SVD Recommender System. [online] Medium. Available at: https://towardsdatascience.com/beginners-guide-to-creating-an-svd-recommender-system-1fd7326d1f65.

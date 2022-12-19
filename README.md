@@ -88,5 +88,13 @@ Based on this, we can distinguish between three algorithms used in recommender s
 
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Recommender_systems.PNG)
 
+# Contebt based Filtering
+
+Idea: If you like an item then you will also like a “similar” item
+
+Content based recommender systems are based on the similarity of the items being recommended. It generally works well when its easy to determine the context/properties of each item. For instance when we are recommending the same kind of item like a movie recommendation or song recommendation.
+
+In this recommender system the content of the movie (genre, keywords, cast, directors, tags, etc) will be used to find its similarity with other movies. The movies that are most likely to be similar are then recommended.
+
 * Conclusion 
 * References 

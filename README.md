@@ -119,6 +119,11 @@ In order to make a new recommendation to a user, the user-user method roughly tr
 
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/User_user.PNG)
 
+# Item-item collaborative based filtering
+To tackle the issues with user-based collaborative based techniques, item-based collaborative techniques analyze the user-item matrix and identify relationships between different items (Sarwar et al.,2001). The item-based recommendation system then makes recommendations based on the discovered linear relationships (similarities) amongst the items. This method is more stable compared to user based collaborative filtering because the average item has a lot more ratings than the average user. So an individual rating doesn’t impact as much.
+
+The idea of item-item method is to find movies similar to the ones the user already “positively” interacted with. Two items are considered to be similar if most of the users that have interacted with both of them did it in a similar way. This method is said to be “item-centred” as it represents items based on interactions users had with them and evaluates distances between those items.
+
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Item_item.PNG)
 
 * Conclusion 

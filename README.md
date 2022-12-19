@@ -38,6 +38,24 @@ Construct a recommendation algorithm capable of accurately predicting how a user
   2. User rating of the movie “Toy Story”
   3. Top 25 movies by viewership rating
   4. Find the ratings for all the movies reviewed by for a particular user of user id = 2696
+
+
+
+
+## Rating Distribution of Toy Story
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/ToyStory_dist.PNG)
+
+## Dramas and Comedies are Popular genres
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Genre_freq.PNG)
+
+
+
+
+
+## Word Cloud of Popular movies
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/WordCloud.png)
+
+
 * Feature Engineering
   1. Find out all the unique genres (Hint: split the data in column genre making a list and then process the data to find out only the unique categories of genres)
   2. Create a separate column for each genre category with a one-hot encoding ( 1 and 0) whether or not the movie belongs to that genre.

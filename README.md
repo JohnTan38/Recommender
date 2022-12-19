@@ -126,5 +126,20 @@ The idea of item-item method is to find movies similar to the ones the user alre
 
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Item_item.PNG)
 
+# Singular value decomposition (SVD)
+Unlike Memory-Based Approaches, Model-Based procedures facilitate machine learning techniques such as Singular Value Decomposition (SVD) and Matrix Factorization models to predict the end user's rating on unrated items.
+
+We will be using SVD to build our recommender engine. We utilize the results of SVD to fill the vacant ratings and then use the item based method to produce the prediction of unrated items.
+
+Formally, **SVD is decomposition of a matrix R which is the utility matrix with m equal to the number of users and m number exposed items (movies) into the product of three matrices:**
+
+ - U is a left singular orthogonal matrix, representing the relationship between users and latent factors (Hopcroft & Kannan, 2012)
+
+ - Σ is a diagonal matrix (with positive real values) describing the strength of each latent factor
+
+ - V(transpose) is a right singular orthogonal matrix, indicating the similarity between items and latent factors.
+
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/SVD.PNG)
+
 * Conclusion 
 * References 

@@ -98,5 +98,12 @@ In this recommender system the content of the movie (genre, keywords, cast, dire
 
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Content_based.PNG)
 
+# Collaborative based Filtering
+
+
+Collaborative methods for recommender systems are methods that are based solely on the past interactions recorded between users and items in order to produce new recommendations. These methods do not require item meta-data like their content-based counterparts. This makes them less memory intensive which is a major plus since our dataset is so huge.
+
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Item_item.PNG)
+
 * Conclusion 
 * References 

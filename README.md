@@ -71,9 +71,20 @@ Construct a recommendation algorithm capable of accurately predicting how a user
   3. Determine the features affecting the ratings of any particular movie.
 * Building the models
   - Content based 
-  - Collaborative based 
-  - Collaborative Filtering
+  - Collaborative Filtering 
+  - Hybrid
   
+Recommender systems function with two kinds of information:
+
+Characteristic information. This is information about items (keywords, categories, etc.) and users (preferences, profiles, etc.).
+
+User-item interactions. This is information such as ratings, number of purchases, likes, etc.
+
+Based on this, we can distinguish between three algorithms used in recommender systems:
+  - Content based systems, which use characteristic information.
+  - Collaborative Filtering systems, which are based on user-item interactions.
+  - Hybrid systems, whcih combine both types of information with the aim of avoiding issues when working with just one type of system
+
 
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Recommender_systems.PNG)
 

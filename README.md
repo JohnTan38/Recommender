@@ -103,6 +103,22 @@ In this recommender system the content of the movie (genre, keywords, cast, dire
 
 Collaborative methods for recommender systems are methods that are based solely on the past interactions recorded between users and items in order to produce new recommendations. These methods do not require item meta-data like their content-based counterparts. This makes them less memory intensive which is a major plus since our dataset is so huge.
 
+## There are 2 collaborative based filtering methods:
+**Memory based**<br>
+We will investigate 2 two memory based methods: User-user and item-item. The main characteristics of user-user and item-item approaches is that they use only information from the user-item interaction matrix and they assume no model to produce new recommendations.
+
+**Model based**<br>
+Model based collaborative approaches only rely on user-item interactions information and assume a latent model supposed to explain these interactions. For example, matrix factorisation algorithms consists in decomposing the huge and sparse user-item interaction matrix into a product of two smaller and dense matrices: a user-factor matrix (containing users representations) that multiplies a factor-item matrix (containing items representations).
+
+# User-user Collaborative based Filtering
+
+
+This method captures the underlying pattern of interests of like-minded users and uses the choices and preferences of similar users to suggest new items.
+
+In order to make a new recommendation to a user, the user-user method roughly tries to identify users with the most similar “interactions profile” (nearest neighbours) in order to suggest movies that are the most popular among these neighbours (and that are “new” to our user). This method is said to be “user-centred” as it represents users based on their interactions with items and evaluates distances between users.
+
+![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/User_user.PNG)
+
 ![Heading](https://github.com/JohnTan38/Recommender/blob/main/dat/Item_item.PNG)
 
 * Conclusion 
